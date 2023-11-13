@@ -7,25 +7,25 @@
 
 @font-face {
     font-family: 'orkney';
-    src: url('./assets/orkney-regular.otf');
+    src: url('assets/orkney-regular.otf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'orkney';
-    src: url('./assets/orkney-bold.otf');
+    src: url('assets/orkney-bold.otf');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'orkney';
-    src: url('./assets/orkney-medium.otf');
+    src: url('assets/orkney-medium.otf');
     font-style: medium;
 }
 
 @font-face {
     font-family: 'orkney';
-    src: url('./assets/orkney-light.otf');
+    src: url('asset/orkney/orkney-light.otf');
     font-style: light;
 }
 
@@ -34,8 +34,13 @@ body{
     color: #fff;
     --color1: #fff;
     --color2: #89e0ff; 
-
+    font-family: 'orkney';
 }
+
+/* ################### */
+/* header */
+/* ################### */
+
 
 .nav-bar{
     width: 100%;
@@ -108,6 +113,12 @@ body{
 #check{
     display: none;
 }
+/* ################### */
+/* fin de header */
+/* ################### */
+
+
+
 
 
 
@@ -143,9 +154,5 @@ body{
 
     #check:checked ~ #menu{
         right: 0;
-    }
-    input{
-        background-color: #000;
-      
     }
 }
