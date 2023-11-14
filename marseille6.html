@@ -4,47 +4,284 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="marseille6.css">
+    <link rel="stylesheet" href="marseille.css"
     <title>Musées</title>
 </head>
 <body>
+  <header id="header">
+    <nav>
+        <ul class="nav-bar">
+            <li id="logo"><a href="marseille1.html"><img src="img/logo-mars.png" alt="logo ville de marseille"></a></li>
+            <li id="title"><a href="marseille1.html">MARSEILLE.FR</a></li>
+            <input type="checkbox" id="check">
+             <div id="menu">
+                <li><a href="marseille1.html">Acceuil</a></li>
+                <li><a href="marseille2.html">Histoire</a></li>
+                <li><a href="marseille3.html">Randonnées</a></li>
+                <li><a href="marseille4.html">Plages</a></li>
+                <li><a href="marseille5.html">Parc Publiques</a></li>
+                <li><a href="marseille6.html">Musées</a></li>
+                <li><a href="marseille7.html">Contact</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+             </div>
+             <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
 
-    <hr id="last">
+        </ul>
+    </nav>
+</header>
+
+
+    <section id="vague">
+      <div class='air air1'></div>
+      <div class='air air2'></div>
+      <div class='air air3'></div>
+      <div class='air air4'></div>
+    </section>
+
+   <h1>Les Musées</h1>
+
+    <hr id="marseillehr">
 
     <article class="grid-container">
-        <section class="grid-item">
-          <img src="img/marseille.jpg" alt="Image 1">
-          <section class="overlay-text">Musée des Beaux-Arts - (MBA)</section>
+      
+
+      <a href="https://musees.marseille.fr/musee-des-beaux-arts-mba" class="grid-item">
+          <img src="img/beaux-arts.jpg" alt="Image 1">
+          <section class="overlay-text">Musée des Beaux-Arts</section>
+          <section class="overlay-subtitle">Palais Longchamp</section>
           <section class="overlay-description">
-            <p>Ouverture : 9h - 10h <br>
-                Adresse : sqdsqdsqdsqd
+            <p>
+                Musée des Beaux-Arts Palais Longchamp Aile gauche 13004 Marseille
             </p>
           </section>
-        </section>
-        <section class="grid-item">
-          <img src="img/marseillenight.jpg" alt="Image 2">
-          <section class="overlay-text"></section>
-          <section class="overlay-description">OUI OUI</section>
-        </section>
-        <section class="grid-item">
-          <img src="images/marseille.jpg" alt="Image 3">
-          <section class="overlay-text">Titre pour l'image 3</section>
-          <section class="overlay-description">Description pour l'image 3</section>
-        </section>
-        <section class="grid-item">
-            <img src="images/marseille.jpg" alt="Image 1">
-            <section class="overlay-text">Parc Longchamp</section>
-            <section class="overlay-description">Ouverture : 9h - 19h</section>
+          <section class="overlay-additional-description">Contact : 04 91 14 59 30 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/museum-dhistoire-naturelle-de-marseille-mhnm-0" class="grid-item">
+          <img src="img/museum-histoire-naturelle.jpg" alt="Image 2">
+          <section class="overlay-text">Muséum d'histoire naturelle</section>
+          <section class="overlay-subtitle">Palais Longchamp</section>
+          <section class="overlay-description">
+            <p>
+               Palais Longchamp (Aile droite) Boulevard Philippon 13004 Marseille
+            </p>
           </section>
-          <section class="grid-item">
-            <img src="images/marseillenight.jpg" alt="Image 2">
-            <section class="overlay-text">Parc</section>
-            <section class="overlay-description">OUI OUI</section>
+          <section class="overlay-additional-description">Contact : 04 91 14 59 50 </section>
+        </a>
+        
+        <a href="https://vieille-charite-marseille.com" class="grid-item">
+          <img src="img/monument-visite-vieille-charite-musee.jpg" alt="Image 3">
+          <section class="overlay-text">Centre de la vieille charité</section>
+          <section class="overlay-subtitle">Vieille charité</section>
+          <section class="overlay-description" id="court">
+            <p>
+             2, rue de la Charité
+              13002 Marseille
+            </p>
           </section>
-          <section class="grid-item">
-            <img src="image3.jpg" alt="Image 3">
-            <section class="overlay-text">Titre pour l'image 3</section>
-            <section class="overlay-description">Description pour l'image 3</section>
+          <section class="overlay-additional-description">Contact : 04 91 14 58 46 </section>
+        </a>
+
+        <a href="https://www.musee-histoire-marseille-voie-historique.fr" class="grid-item">
+          <img src="img/musee-histoire-marseille.jpg" alt="Image 4">
+          <section class="overlay-text">Musée d'histoire de Marseille</section>
+          <section class="overlay-subtitle">Partenaire</section>
+          <section class="overlay-description" id="court">
+            <p>
+              2 Rue Henri Barbusse, 13001 Marseille
+            </p>
           </section>
+          <section class="overlay-additional-description">Contact : 04 91 14 59 30 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/musee-darcheologie-mediterraneenne-mam" class="grid-item" id="archéologie">
+          <img src="img/archéologie.jpg" alt="Image 5">
+          <section class="overlay-text">Musée d'Archéologie Méditerranéeenne </section>
+          <section class="overlay-subtitle">Vieille charité</section>
+          <section class="overlay-description" id="court">
+            <p>
+              2, rue de la Charité
+              13002 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 14 58 97 </section>
+        </a>
+
+
+        <a href="https://musees.marseille.fr/musee-darts-africains-oceaniens-amerindiens-maaoa" class="grid-item" id="faience">
+          <img src="img/borely.jpg" alt="Image 7">
+          <section class="overlay-text">Musée des Arts décoratifs, de la Faïence et de la Mode 
+          </section>
+          <section class="overlay-subtitle">Château Borely</section>
+          <section class="overlay-description" id="court">
+            <p>
+              132 avenue Clot Bey - 13008 Marseille  
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 55 33 60   </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/presentation-du-memorial-de-la-marseillaise" class="grid-item">
+          <img src="img/memorialdelamarse.jpeg" alt="Image 8">
+          <section class="overlay-text">Mémorial de la marseillaise</section>
+          <section class="overlay-subtitle">Voie historique</section>
+          <section class="overlay-description" id="court">
+            <p>
+              23-25 rue Thubaneau Marseille 13001
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 55 36 00 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/musee-grobet-labadie-mgl-0" class="grid-item" id="grobet">
+          <img src="img/musee-grobet-labadie.jpg" alt="Image 9">
+          <section class="overlay-text">Musée Grobet-Labadié</section>
+          <section class="overlay-subtitle">Arts décoratifs</section>
+          <section class="overlay-description" id="court">
+            <p>
+              140 boulevard Longchamp 13001 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 55 33 60 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/presentation-du-memorial-des-deportations?museum=memorial-des-deportations" class="grid-item">
+          <img src="img/Memorial-deportations.jpeg" alt="Image 10">
+          <section class="overlay-text">Mémorial des déportations</section>
+          <section class="overlay-subtitle">Voie historique</section>
+          <section class="overlay-description" id="court2">
+            <p>
+              Avenue Vaudoyer 13002 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 55 36 00 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/musee-cantini-0" class="grid-item" id="cantini">
+          <img src="img/musee_cantini.jpg" alt="Image 11">
+          <section class="overlay-text">Musée Cantini - (MC)</section>
+          <section class="overlay-subtitle">Art moderne</section>
+          <section class="overlay-description" id="court">
+            <p>
+              19 Rue Grignan, 13006 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 13 94 83 30 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/musee-cantini-0" class="grid-item" id="enfant">
+          <img src="img/enfant.jpg" alt="Image 12">
+          <section class="overlay-text">Préau des Accoules - Musée des enfants</section>
+          <section class="overlay-subtitle">Musée des enfants</section>
+          <section class="overlay-description" id="court">
+            <p>
+              29 montée des Accoules 13002 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 13 94 83 85 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/musee-darts-africains-oceaniens-amerindiens-maaoa" class="grid-item" id="africain">
+          <img src="img/artafricain.jpg" alt="Image 6">
+          <section class="overlay-text">Musée d'arts africains océaniens amérindiens</section>
+          <section class="overlay-subtitle">Vieille charité</section>
+          <section class="overlay-description">
+            <p>
+              Centre de la Vieille Charité 2, rue de la Charité 13002 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 14 59 30 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/cabinet-des-monnaies-et-medailles" class="grid-item">
+          <img src="img/cabinet des monnaies.jpg" alt="Image 13">
+          <section class="overlay-text"> Cabinet des Monnaies et Médailles </section>
+          <section class="overlay-subtitle">Archives municipales</section>
+          <section class="overlay-description" id="court">
+            <p>
+              10 rue Clovis-Hugues 13003 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Voir directement à l'adresse </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/musee-de-la-moto-0" class="grid-item">
+          <img src="img/moto.jpg" alt="Image 14">
+          <section class="overlay-text"> Musée de la Moto </section>
+          <section class="overlay-subtitle">Art moderne</section>
+          <section class="overlay-description">
+            <p>
+              18 rue Jean Marsac Quartier du Merlan 13013 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 55 48 43 </section>
+        </a>
+
+        <a href="https://www.mucem.org" class="grid-item">
+          <img src="img/mucem.jpg" alt="Image 18">
+          <section class="overlay-text">Mucem - Musée partenaire</section>
+          <section class="overlay-subtitle">Partenaire</section>
+          <section class="overlay-description" id="court">
+            <p>
+              1 Esp. J4, 13002 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 84 35 13 13 </section>
+        </a>
+
+
+        <a href="https://musees.marseille.fr/musee-des-docks-romains-0" class="grid-item" id="docks">
+          <img src="img/Musée_des_docks_romainse.jpg" alt="Image 16">
+          <section class="overlay-text">Musée des Docks romains</section>
+          <section class="overlay-subtitle">Voie historique</section>
+          <section class="overlay-description" id="court">
+            <p>
+              10, Place Vivaux 13002 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 55 36 00 </section>
+        </a>
+
+        <a href="https://fracsud.org" class="grid-item" id="frac">
+          <img src="img/frac.jpg" alt="Image 17">
+          <section class="overlay-text">Frac - Musée partenaire</section>
+          <section class="overlay-subtitle">Partenaire</section>
+          <section class="overlay-description" id="court">
+            <p>
+              20 Bd de Dunkerque, 13002 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 91 91 27 55 </section>
+        </a>
+
+
+        <a href="https://www.museeregardsdeprovence.com" class="grid-item" id="regards">
+          <img src="img/regards.jpg" alt="Image 19">
+          <section class="overlay-text">Musée Regards de Provence</section>
+          <section class="overlay-subtitle">Partenaire</section>
+          <section class="overlay-description" id="court">
+            <p>
+              Avenue Vaudoyer, 13002 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 96 17 40 40 </section>
+        </a>
+
+        <a href="https://musees.marseille.fr/musee-dart-contemporain-mac" class="grid-item" id="mac">
+          <img src="img/mac.jpg" alt="Image 15">
+          <section class="overlay-text">Musée d'Art Contemporain [mac]</section>
+          <section class="overlay-subtitle">Art contemporain</section>
+          <section class="overlay-description" id="court">
+            <p>
+              69, avenue de Haïfa 13008 Marseille
+            </p>
+          </section>
+          <section class="overlay-additional-description">Contact : 04 13 94 83 49/54 </section>
+        </a>
+
+
+
+
     </article>
 
     <hr id="last">

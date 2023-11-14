@@ -1,8 +1,8 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 body {
     min-height: 100vh;
@@ -51,11 +51,11 @@ body {
   
 .overlay-text {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-size: 1.5rem;
+    font-size: 120%;
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -70,17 +70,16 @@ body {
     top: 0;
     left: 10px; 
     color: white;
-    font-size: 1rem; 
+    font-size: 100%; 
     font-weight: bold;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    margin: 10px;
 }
 
-
-.grid-item:hover .overlay-subtitle,
 .grid-item:hover .overlay-text,
 .grid-item:hover .overlay-description {
     opacity: 1;
@@ -89,7 +88,7 @@ body {
 
 .overlay-description {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -97,6 +96,7 @@ body {
     text-align: left;
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
 }
 
 @media (max-width: 767px) {
@@ -124,3 +124,243 @@ hr {
     margin-right: 40px;
     margin-bottom: 40px;
 }
+
+.grid-item:hover .overlay-subtitle {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.overlay-additional-description {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.grid-item:hover .overlay-additional-description {
+    opacity: 1;
+}
+
+#court {
+    margin-top: 1px;
+    top: 70%;
+
+}
+
+#court2 {
+    margin-top: 1px;
+    top: 75%;
+}
+
+h1 {
+    color: black;
+    margin-left: 3%;
+    font-size: 80px;
+}
+
+#marseillehr {
+    margin: 20px 3%;
+    height: 15px;
+    border: none;
+    background-color: #89E0FF;
+
+}
+
+#faience .overlay-text{
+    font-size: 100%;
+}
+
+@media (max-width: 767px) {
+    .overlay-text {
+        font-size: 14px; 
+        top: 60%;
+        white-space: pre-wrap;
+    }
+
+    .overlay-subtitle {
+        display: none;
+    }
+
+    .overlay-description {
+        font-size: 10px;
+        top: 80%;
+    }
+
+    .overlay-additional-description {
+        font-size: 12px; 
+    }
+
+    #cantini img{
+        height: 150px;
+
+    }
+
+    #archéologie .overlay-description{
+        top: 80%;
+    }
+
+    #faience .overlay-text{
+        top: 90%;
+    }
+
+    #faience .overlay-description{
+        top: 90%;
+    }
+
+    #regards .overlay-text{
+        top: 80%;
+    }
+
+    #regards .overlay-description{
+        top: 90%;
+    }
+
+    
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* Styles pour les tablettes et ordinateurs portables */
+    .overlay-text {
+        font-size: 14px; 
+        top: 60%;
+        white-space: pre-wrap;
+    }
+
+    .overlay-subtitle {
+        display: none;
+    }
+
+    .overlay-description {
+        font-size: 10px;
+        top: 80%;
+    }
+
+    .overlay-additional-description {
+        font-size: 12px; 
+    }
+
+    #cantini img {
+        height: 150px;
+    }
+
+    #archéologie .overlay-description,
+    #faience .overlay-description,
+    #regards .overlay-description,
+    #frac .overlay-description,
+    #docks .overlay-description {
+        top: 90%;
+    }
+
+    #faience .overlay-text,
+    #regards .overlay-text {
+        top: 80%;
+    }
+
+    #cantini .overlay-text{
+        top: 40%;
+    }
+
+    #grobet .overlay-description{
+        top: 90%;
+    }
+
+    #enfant .overlay-text{
+        top: 70%;
+    }
+
+    #enfant .overlay-description{
+        top: 90%;
+    }
+
+    #africain .overlay-text{
+        top: 70%;
+    }
+
+    #africain .overlay-description{
+        top: 90%;
+    }
+
+    #mac .overlay-description{
+        top: 90%;
+    }
+
+    #mac .overlay-text{
+        top: 70%;
+    }
+
+    #frac .overlay-text{
+        top: 70%;
+    }
+
+
+}
+
+#vague{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #89E0FF;
+    overflow: hidden;
+  }
+  #vague .air{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+    background-size: 1000px 100px
+  }
+  #vague .air.air1{
+    animation: wave 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  }
+  #vague .air.air2{
+    animation: wave2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+  }
+  #vague .air.air3{
+    animation: wave 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+  }
+  #vague .air.air4{
+    animation: wave2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+  }
+  @keyframes wave{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: 1000px; 
+    }
+  }
+  @keyframes wave2{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: -1000px; 
+    }
+  }
+
+
+
