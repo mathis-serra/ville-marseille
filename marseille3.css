@@ -9,9 +9,425 @@
 
 h1{
     color: white;
-    font-size: 150px;
+    font-size: 180px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
     margin-top: -22%;
+}
+
+#texte p{
+    color: black;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 22%;
+    width: 55%;
+}
+
+
+
+/*######################*/
+/*st-michel*/
+/*######################*/
+/*######################*/
+/*Mathis*/
+/*######################*/
+#mathis_présentation{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: fixed ;
+}
+
+#hello{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 29.4% 75.3%, 9.6% 100%, 9.6% 75.3%, 0% 75.3%);
+    margin-top: -27%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    height: 20vh;
+    width: 25vw;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    border-bottom: black solid 3px;
+    text-align: center;
+    padding: 1.5%;
+}
+/*######################*/
+/*fin Mathis*/
+/*######################*/
+
+
+
+
+
+/*######################*/
+/*kevin*/
+/*######################*/
+#kevin_présentation{
+    margin-left: 70%;
+}
+
+#hello2{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 84.9% 75.3%, 86.7% 93.5%, 70.5% 76.6%, 0% 75.3%);
+    margin-top: -70%;
+    margin-left: -30%;
+    margin-bottom: 5%;
+    height: 20vh;
+    width: 15vw;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    border-bottom: black solid 3px;
+    text-align: center;
+    padding: 3%;
+}
+/*######################*/
+/*fin kevin*/
+/*######################*/
+
+
+
+/*######################*/
+/*belvedere*/
+/*######################*/
+#description_belvedere{
+    text-align: center;
+    margin-top: 15%;
+}
+#description_belvedere h2{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#description_belvedere img{
+    border-radius: 10px;
+}
+
+/*######################*/
+/*fin belvedere*/
+/*######################*/
+/*######################*/
+/*fin st-michel*/
+/*######################*/
+
+
+
+
+/*######################*/
+/*goudes*/  
+/*######################*/
+#mathis_goudes{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+#mathis_texte_goudes{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 29.4% 75.3%, 9.6% 100%, 9.6% 75.3%, 0% 75.3%);
+    background-color: black;
+    width: 18vw;
+    height: 22vh;
+    color: white;
+    padding: 3%;
+    margin-left: 10%;
+    margin-top: -35%;
+    text-align: center;
+}
+
+#ginette_goudes{
+    margin-left: 70%;
+    margin-top: -5%;
+}
+
+#ginette_texte_goudes{
+    clip-path: polygon(84.5% 0%, 85.8% 25%, 100% 26.1%, 100% 100%, 0% 100%, 0% 25.5%, 74.7% 25%);
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 20vw;
+    padding: 11%;
+    margin-left: -40%;
+    margin-top: -5%;
+    text-align: center;
+}
+
+#kevin_goudes{
+    margin-left: 35%;
+}
+
+#kevin_texte_goudes{
+    clip-path: polygon(100% 35.7%, 100% 100%, 0% 100%, 0% 35.7%, 24.9% 35.1%, 24.6% 0%, 42.5% 35.7%);
+    background-color: black;
+    color: white;
+    height: 28vh;
+    width: 18vw;
+    padding: 10%;
+    padding-left: 2%;
+    padding-right:1% ;
+    margin-left: 15%;
+    margin-top: -3%;
+    text-align: center;
+}
+
+#description_goudes{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#description_goudes h2{
+    color: black;
+    margin-top: 2%;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#description_goudes img{
+    border-radius: 10px;
+}
+/*######################*/
+/*fin goudes*/
+/*######################*/
+
+
+
+
+
+
+
+/*######################*/
+/*puget*/
+/*######################*/
+#mathis_puget{
+    margin-left: 60%;
+    margin-top: 5%;
+}
+
+#mathis_texte_puget{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86.9% 74.8%, 86.9% 100%, 77.7% 75.5%, 0% 75%);
+    background-color: black;
+    width: 18vw;
+    height: 22vh;
+    color: white;
+    padding: 5%;
+    margin-left: -30%;
+    margin-top: -55%;
+    text-align: center;
+}
+
+#ginette_puget{
+    margin-left: 20%;
+    margin-top: -10%;
+}
+
+#ginette_texte_puget{
+    clip-path: polygon(84.5% 0%, 85.8% 25%, 100% 26.1%, 100% 100%, 0% 100%, 0% 25.5%, 74.7% 25%);
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 20vw;
+    padding: 5%;
+    margin-left: -15%;
+    margin-top: -5%;
+    text-align: center;
+}
+
+#kevin_puget{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+#kevin_texte_puget{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86.9% 74.8%, 86.9% 100%, 77.7% 75.5%, 0% 75%);
+    background-color: black;
+    color: white;
+    height: 28vh;
+    width: 18vw;
+    padding: 5%;
+    padding-left: 2%;
+    padding-right:1% ;
+    margin-left: -25%;
+    margin-top: -45%;
+    text-align: center;
+}
+
+#description_puget{
+    text-align: center;
+    margin-top: 15%;
+}
+
+#description_puget h2{
+    color: black;
+    margin-top: 2%;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#description_puget img{
+    border-radius: 10px;
+}
+/*######################*/
+/*fin puget*/
+/*######################*/
+
+
+
+
+
+/*######################*/
+/*calanques*/
+/*######################*/
+#mathis_calanques{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#mathis_texte_calanques{
+    clip-path: polygon(100% 35.7%, 100% 100%, 0% 100%, 0% 35.7%, 24.9% 35.1%, 24.6% 0%, 42.5% 35.7%);
+    background-color: black;
+    width: 15vw;
+    height: 22vh;
+    color: white;
+    padding: 5%;
+    margin-left: 10%;
+    margin-top: -3%;
+    text-align: center;
+}
+
+#ginette_calanques{
+    margin-left: 70%;
+    margin-top: -25%;
+}
+
+#ginette_texte_calanques{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86.9% 74.8%, 86.9% 100%, 77.7% 75.5%, 0% 75%);
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 20vw;
+    padding: 5%;
+    margin-left: -65%;
+    margin-top: -65%;
+    text-align: center;
+}
+
+#kevin_calanques{
+    margin-left: 45%;
+    margin-top: 15%;
+}
+
+#kevin_texte_calanques{
+    clip-path: polygon(100% 35.7%, 100% 100%, 0% 100%, 0% 35.7%, 24.9% 35.1%, 24.6% 0%, 42.5% 35.7%);
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 18vw;
+    padding: 8%;
+    margin-left: 15%;
+    margin-top: -1%;
+    text-align: center;
+
+}
+
+#description_calanques{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#description_calanques h2{
+    color: black;
+    margin-top: 2%;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#description_calanques img{
+    border-radius: 10px;
+}
+/*######################*/
+/*fin calanques*/
+/*######################*/
+
+
+
+
+
+/*######################*/
+/*pagnol*/
+/*######################*/
+#mathis_pagnol{
+    margin-left: 70%;
+    margin-top: 5%;
+}
+
+#mathis_texte_pagnol{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86.9% 74.8%, 86.9% 100%, 77.7% 75.5%, 0% 75%);
+    background-color: black;
+    width: 18vw;
+    height: 22vh;
+    color: white;
+    padding: 5%;
+    margin-left: -40%;
+    margin-top: -75%;
+    text-align: center;
+}
+
+#ginette_pagnol{
+    margin-left: 5%;
+    margin-top: -5%;
+}
+
+#ginette_texte_pagnol{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 74.6%, 29.9% 74.6%, 10.2% 100%, 10.2% 74.6%, 0% 74.6%);
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 20vw;
+    padding: 2%;
+    margin-left: 20%;
+    margin-top: -25%;
+    text-align: center;
+}
+
+#kevin_pagnol{
+    margin-left: 45%;
+    margin-top: 8%;
+}
+
+#kevin_texte_pagnol{
+    clip-path: polygon(84.5% 0%, 85.8% 25%, 100% 26.1%, 100% 100%, 0% 100%, 0% 25.5%, 74.7% 25%);
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 18vw;
+    padding: 6%;
+    margin-left: -25%;
+    margin-top: -10%;
+    text-align: center;
+}
+
+#description_pagnol{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#description_pagnol h2{
+    color: black;
+    margin-top: 2%;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#description_pagnol img{
+    border-radius: 10px;
 }
