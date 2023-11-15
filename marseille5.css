@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.park-info {
+    display: flex;
+  
+}
+
+.info-block {
+    flex: 1;
+    transition: background-color 1s ease;
+    width: 50%;
+}
+
+.info-block img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: filter 1s ease;
+    max-width: 100%;
+}
+
+.info-text {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 20px;
+    transition: background-color 1s ease, color 1s ease;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 20;
+    word-wrap: break-word;
+}
+
+.info-text p{
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+
+.park-info:nth-child(1):hover .info-block {
+    background-color: #FEDB00;
+}
+
+.park-info:nth-child(1):hover .info-text h2 {
+    color: #286140;
+}
+
+.park-info:nth-child(1) .info-text h2 {
+    color: #FEDB00;
+}
+
+.park-info:nth-child(1) .info-text p {
+    color: #FEDB00;
+}
+
+.park-info:nth-child(1) .info-block {
+    background-color: #286140;
+}
+
+.park-info:nth-child(1):hover .info-text p {
+    color: #286140;
+}
+
+.park-info:nth-child(2):hover .info-block {
+    background-color: #feffff;
+}
+
+.park-info:nth-child(2):hover .info-text h2 {
+    color: #87CEEB;
+}
+
+.park-info:nth-child(2) .info-text h2 {
+    color: white;
+}
+
+.park-info:nth-child(2) .info-text p {
+    color: white;
+}
+
+.park-info:nth-child(2) .info-block {
+    background-color: #87CEEB;
+}
+
+.park-info:nth-child(2):hover .info-text p {
+    color: #87CEEB;
+}
+
+.park-info:nth-child(3) .info-text h2 {
+    color: #653024;
+}
+
+.park-info:nth-child(3) .info-text p {
+    color: #653024;
+}
+
+.park-info:nth-child(3) .info-block {
+    background-color: #FFB500;
+}
+
+.park-info:nth-child(3):hover .info-block {
+    background-color: #653024;
+}
+
+.park-info:nth-child(3):hover .info-text h2 {
+    color: #FFB500;
+}
+
+.park-info:nth-child(3):hover .info-text p {
+    color: #FFB500;
+}
+
+.park-info:nth-child(4):hover .info-block {
+    background-color: #435c1e;
+}
+
+.park-info:nth-child(4):hover .info-text h2 {
+    color: rgb(178, 177, 177);
+}
+
+.park-info:nth-child(4) .info-text h2 {
+    color: #435c1e;
+}
+
+.park-info:nth-child(4) .info-text p {
+    color: #435c1e;
+}
+
+.park-info:nth-child(4) .info-block {
+    background-color: rgb(178, 177, 177);
+}
+
+.park-info:nth-child(4):hover .info-text p {
+    color: rgb(178, 177, 177);
+}
+
+
+@media (max-width: 768px) {
+    .park-info {
+        flex-direction: column;
+    }
+
+    .info-block, .info-text {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .info-block, .info-text {
+        width: 100%; 
+    }
+
+    .info-block img{
+        width: 100%;
+    }
+
+    .park-info {
+        flex-direction: column; 
+    }
+}
+
+@media (min-width: 2560px) {
+    .info-block img{
+        width: 100%; 
+    }
+
+    .info-text p {
+        font-size: 30px;
+    }
+}
