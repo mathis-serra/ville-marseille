@@ -16,6 +16,27 @@ h2{
     margin-bottom: 10%;
 }
 
+
+@media screen and (max-width:1000px){
+    h1{
+        color: #000000;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    h2{
+        color: #000000;
+        font-size: px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 10%;
+    } 
+}
+
 /*######################*/
 /*paleolithique*/
 /*######################*/
@@ -24,6 +45,14 @@ h2{
     margin-left: 1%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_paleolithique img{
+        width: 40%;
+        height: auto;
+        margin-left: 5%;
+    }
 }
 
 #h3_1{
@@ -54,6 +83,21 @@ h2{
 }
 .timeline-item1{
     margin: 20%;
+}
+
+@media screen and (max-width:1000px) {
+    .timeline-item1:before{
+        content:"";
+        position: absolute;
+        background-color: black;
+        width: 1%;
+        height: 1000%;
+        left: 47.5%;
+        top: 75%;
+        display: none;
+    }
+
+    
 }
 
 .timeline-item-details1{
@@ -165,6 +209,14 @@ h2{
     margin-top: -60%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_antiquité img{
+        width: 40%;
+        height: auto;
+        margin-left: 55%;
+    }
 }
 
 #h3_2{
@@ -309,6 +361,14 @@ h2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_rome_antique img{
+        width: 40%;
+        height: auto;
+        margin-left: 5%;
+    }
+}
+
 #h3_3{
     color: #000000 ;
     margin-left: 8%;
@@ -316,6 +376,17 @@ h2{
     text-decoration: underline;
     font-weight: bolder;
     font-size: 20px;
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #h3_3{
+        color: #000000 ;
+        margin-left: 8%;
+        margin-top: 1%;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 15px;
+    }
 }
 
 /*timeline*/
@@ -449,6 +520,14 @@ h2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_medieval img{
+        width: 40%;
+        height: auto;
+        margin-left: 55%;
+    }
+}
+
 #h3_4{
     color: #000000 ;
     margin-left: 60%;
@@ -458,6 +537,16 @@ h2{
     font-size: 20px;
 }
 
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #h3_4{
+        color: #000000 ;
+        margin-left: 60%;
+        margin-top: 1%;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+}
 
 .timeline4{
     position: relative;
@@ -589,6 +678,14 @@ h2{
     border-radius: 10px;
     margin-top: -60%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_moyen_age img{
+        width: 40%;
+        height: auto;
+        margin-left: 5%;
+    }
 }
 
 #h3_5{
@@ -730,6 +827,14 @@ h2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_renaissance img{
+        width: 40%;
+        height: auto;
+        margin-left: 55%;
+    }
+}
+
 #h3_6{
     color: #000000 ;
     margin-left: 72%;
@@ -867,6 +972,14 @@ h2{
     border-radius: 10px;
     margin-top: -60%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_roi_soleil img{
+        width: 40%;
+        height: auto;
+        margin-left: 5%;
+    }
 }
 
 #h3_7{
@@ -1010,6 +1123,14 @@ h2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_lumieres img{
+        width: 40%;
+        height: auto;
+        margin-left: 55%;
+    }
+}
+
 #h3_8{
     color: #000000 ;
     margin-left: 62%;
@@ -1017,6 +1138,17 @@ h2{
     text-decoration: underline;
     font-weight: bolder;
     font-size: 20px;
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #h3_8{
+        color: #000000 ;
+        margin-left: 62%;
+        margin-top: 1%;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 15px;
+    }
 }
 
 
@@ -1148,6 +1280,14 @@ h2{
     border-radius: 10px;
     margin-top: -60%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_19eme img{
+        width: 40%;
+        height: auto;
+        margin-left: 5%;
+    }
 }
 
 #h3_9{
@@ -1290,6 +1430,14 @@ h2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_20eme img{
+        width: 40%;
+        height: auto;
+        margin-left: 55%;
+    }
+}
+
 #h3_10{
     color: #000000 ;
     margin-left: 62%;
@@ -1318,6 +1466,18 @@ h2{
 }
 .timeline-item10{
     margin: 20%;
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    .timeline-item10:before{
+        content:"";
+        position: absolute;
+        background-color: black;
+        width: 1%;
+        height: 1130%;
+        left: 47.5%;
+        top: 75%;
+    }
 }
 
 .timeline-item-details10{
@@ -1411,6 +1571,8 @@ h2{
     margin-bottom: 2%;
     font-weight: bold;
 }
+
+
 /*fin timeline*/
 /*######################*/
 /*fin XXe*/
@@ -1427,6 +1589,14 @@ h2{
     border-radius: 10px;
     margin-top: -60%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    #photo_21eme img{
+        width: 40%;
+        height: auto;
+        margin-left: 5%;
+    }
 }
 
 #h3_11{
@@ -1458,6 +1628,17 @@ h2{
 .timeline-item11{
     margin: 20%;
     margin-bottom: 0%;
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    .timeline-item11:before{
+        content:"";
+        position: absolute;
+        background-color: black;
+        width: 1%;
+        left: 47.5%;
+        top: 50%;
+    }
 }
 
 .timeline-item-details11{
@@ -1536,6 +1717,7 @@ h2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
+
 .timeline-item-details11:hover .timeline-item-details-description11{
     opacity: 1;
 }
@@ -1551,3 +1733,275 @@ h2{
     margin-bottom: 2%;
     font-weight: bold;
 }
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    .timeline-item-details-description11 p{
+        font-size: 0.9em;
+        line-height: 1.7em;
+        margin-bottom: 2%;
+        font-weight: bold;
+    }
+
+    .timeline-item-details-description11 h4{
+        font-size: 1.3em;
+        margin-bottom: 2%;
+    }
+}
+
+/*fin timeline*/
+/*######################*/
+/*fin XXIe*/
+/*######################*/
+
+
+
+
+
+/*######################*/
+/*media queries texte 1000-1300px*/
+/*######################*/
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    .timeline-item-details-description1 p,
+    .timeline-item-details-description2 p,
+    .timeline-item-details-description3 p,
+    .timeline-item-details-description4 p,
+    .timeline-item-details-description5 p,
+    .timeline-item-details-description6 p,
+    .timeline-item-details-description7 p,
+    .timeline-item-details-description8 p,
+    .timeline-item-details-description9 p,
+    .timeline-item-details-description10 p,
+    .timeline-item-details-description11 p{
+        font-size: 0.9em;
+        line-height: 1.7em;
+        margin-bottom: 2%;
+        font-weight: bold;
+    }
+
+    .timeline-item-details-description1 h4,
+    .timeline-item-details-description2 h4,
+    .timeline-item-details-description3 h4,
+    .timeline-item-details-description4 h4,
+    .timeline-item-details-description5 h4,
+    .timeline-item-details-description6 h4,
+    .timeline-item-details-description7 h4,
+    .timeline-item-details-description8 h4,
+    .timeline-item-details-description9 h4,
+    .timeline-item-details-description10 h4,  
+    .timeline-item-details-description11 h4{
+        font-size: 1.3em;
+        margin-bottom: 2%;
+    }
+}
+/*######################*/
+/*fin media queries texte 1000-1300px*/
+/*######################*/
+
+
+
+
+
+
+/*######################*/
+/*media queries timeline off 800-1000px*/
+/*######################*/
+@media screen and (max-width:1000px) {
+    .timeline-item1:before,
+    .timeline-item2:before,
+    .timeline-item3:before,
+    .timeline-item4:before,
+    .timeline-item5:before,
+    .timeline-item6:before,
+    .timeline-item7:before,
+    .timeline-item8:before,
+    .timeline-item9:before,
+    .timeline-item10:before,
+    .timeline-item11:before{
+        content:"";
+        position: absolute;
+        background-color: black;
+        width: 1%;
+        height: 1000%;
+        left: 47.5%;
+        top: 75%;
+        display: none;
+    }  
+}
+
+@media screen and (max-width:1000px){
+    .timeline-item-details-description1::before,
+    .timeline-item-details-description2::before,
+    .timeline-item-details-description3::before,
+    .timeline-item-details-description4::before,
+    .timeline-item-details-description5::before,
+    .timeline-item-details-description6::before,
+    .timeline-item-details-description7::before,
+    .timeline-item-details-description8::before,
+    .timeline-item-details-description9::before,
+    .timeline-item-details-description10::before,
+    .timeline-item-details-description11::before{
+        display: none;    
+    }
+}
+/*######################*/
+/*fin media queries timeline off max 1000px*/
+/*######################*/
+
+
+
+
+
+
+
+/*######################*/
+/*media queries images max 1000px*/
+/*######################*/
+@media screen and (max-width:1000px) {
+    #photo_paleolithique img,
+    #photo_antiquité img,
+    #photo_rome_antique img,
+    #photo_medieval img,
+    #photo_moyen_age img,
+    #photo_renaissance img,
+    #photo_roi_soleil img,
+    #photo_lumieres img,
+    #photo_19eme img,
+    #photo_20eme img,
+    #photo_21eme img{
+        width: 80%;
+        height: auto;
+        margin-left:10%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #photo_paleolithique img,
+    #photo_antiquité img,
+    #photo_rome_antique img,
+    #photo_medieval img,
+    #photo_moyen_age img,
+    #photo_renaissance img,
+    #photo_roi_soleil img,
+    #photo_lumieres img,
+    #photo_19eme img,
+    #photo_20eme img,
+    #photo_21eme img{
+        width: 80%;
+        height: auto;
+        margin-left:10%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #h3_1,
+    #h3_2,
+    #h3_3,
+    #h3_4,
+    #h3_5,
+    #h3_6,
+    #h3_7,
+    #h3_8,
+    #h3_9,
+    #h3_10,
+    #h3_11{
+        color: #000000 ;
+        margin-left: 10%;
+        margin-bottom: 2%;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+
+/*######################*/
+/*fin media queries images on max 1000px*/
+/*######################*/
+
+
+
+
+
+
+/*######################*/
+/*media queries texte max 1000px*/
+/*######################*/
+
+@media screen and (max-width:1000px) {
+    .timeline-item1,
+    .timeline-item2,
+    .timeline-item3,
+    .timeline-item4,
+    .timeline-item5,
+    .timeline-item6,
+    .timeline-item7,
+    .timeline-item8,
+    .timeline-item9,
+    .timeline-item10,
+    .timeline-item11{
+        margin-top: 5%;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:1000px){
+    .timeline-item-details-description1,
+    .timeline-item-details-description2,
+    .timeline-item-details-description3,
+    .timeline-item-details-description4,
+    .timeline-item-details-description5,
+    .timeline-item-details-description6,
+    .timeline-item-details-description7,
+    .timeline-item-details-description8,
+    .timeline-item-details-description9,
+    .timeline-item-details-description10,
+    .timeline-item-details-description11{
+        padding: 5%;
+        color: black;
+        background-color: rgb(137, 224, 255);
+        width: 120%;
+        border-radius: 4px;
+        margin-left: -10%;
+        margin-top: 2%;
+        margin-bottom: 80%;
+        word-wrap: break-word;
+        opacity: 0.9;
+        transition: opacity 0.3s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    }
+}
+/*######################*/
+/*fin media queries texte max 1000px*/
+/*######################*/
+
+
+
+/*######################*/
+/*media queries timeline min 1600px*/
+/*######################*/
+@media screen and (min-width:1600px) {
+    .timeline-item1:before,
+    .timeline-item2:before,
+    .timeline-item3:before,
+    .timeline-item4:before,
+    .timeline-item5:before,
+    .timeline-item6:before,
+    .timeline-item7:before,
+    .timeline-item8:before,
+    .timeline-item9:before,
+    .timeline-item10:before,
+    .timeline-item11:before{
+        content:"";
+        position: absolute;
+        background-color: black;
+        width: 1%;
+        height: 2700%;
+        left: 47.5%;
+        top: 65%;
+    }  
+}
+
+
+
