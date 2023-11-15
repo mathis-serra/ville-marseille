@@ -37,18 +37,18 @@ h1{
 /*######################*/
 #mathis_présentation{
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 25%;
     display: fixed ;
 }
 
 #hello{
     clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 29.4% 75.3%, 9.6% 100%, 9.6% 75.3%, 0% 75.3%);
-    margin-top: -27%;
-    margin-left: 8%;
+    margin-top: -35%;
+    margin-left: 15%;
     margin-bottom: 5%;
     height: 20vh;
-    width: 25vw;
-    font-size: 1em;
+    width: 15vw;
+    font-size: 0.7em;
     color: white;
     background-color: black;
     border-bottom: black solid 3px;
@@ -59,7 +59,17 @@ h1{
 /*fin Mathis*/
 /*######################*/
 
-
+#fond1{
+   border: black solid 3px;
+   border-radius: 10px;
+   height:65vh;
+   width: 65%;
+   margin-left: 18%;
+   background-image: url(img/randonnées/rando1.png);
+   margin-top: -15%;
+   background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -67,17 +77,18 @@ h1{
 /*kevin*/
 /*######################*/
 #kevin_présentation{
-    margin-left: 70%;
+    margin-left: 65%;
+    margin-top: -15%;
 }
 
 #hello2{
     clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 84.9% 75.3%, 86.7% 93.5%, 70.5% 76.6%, 0% 75.3%);
-    margin-top: -70%;
+    margin-top: -60%;
     margin-left: -30%;
     margin-bottom: 5%;
-    height: 20vh;
+    height: 15vh;
     width: 15vw;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     background-color: black;
     border-bottom: black solid 3px;
@@ -95,7 +106,7 @@ h1{
 /*######################*/
 #description_belvedere{
     text-align: center;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 #description_belvedere h2{
     color: black;
@@ -104,13 +115,23 @@ h1{
     font-size: 1em;
     width: 50%;
     margin-left: 25%;
-    text-align: center;
+    font-weight: bolder;
+    font-style: underline;
 }
 
 #description_belvedere img{
     border-radius: 10px;
 }
 
+#description_belvedere p{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
 /*######################*/
 /*fin belvedere*/
 /*######################*/
@@ -121,59 +142,78 @@ h1{
 
 
 
+
+
+
 /*######################*/
 /*goudes*/  
 /*######################*/
 #mathis_goudes{
-    margin-top: 15%;
-    margin-left: 20%;
+    margin-top: -40%;
+    margin-left: 15%;
 }
 
 #mathis_texte_goudes{
     clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 29.4% 75.3%, 9.6% 100%, 9.6% 75.3%, 0% 75.3%);
     background-color: black;
-    width: 18vw;
-    height: 22vh;
+    width: 10vw;
+    height: 15vh;
     color: white;
-    padding: 3%;
-    margin-left: 10%;
-    margin-top: -35%;
+    padding: 1.5%;
+    margin-left: 15%;
+    margin-top: -20%;
     text-align: center;
+    font-size: 0.7em;
 }
 
+#fond2{
+    border: black solid 3px;
+    border-radius: 10px;
+    height:90vh;
+    width: 75%;
+    margin-left: 12%;
+    background-image: url(img/randonnées/rando2.jpg);
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
 #ginette_goudes{
-    margin-left: 70%;
-    margin-top: -5%;
+    margin-left: 65%;
+    margin-top: -4%;
 }
 
 #ginette_texte_goudes{
     clip-path: polygon(84.5% 0%, 85.8% 25%, 100% 26.1%, 100% 100%, 0% 100%, 0% 25.5%, 74.7% 25%);
     background-color: black;
     color: white;
-    height: 20vh;
-    width: 20vw;
-    padding: 11%;
+    height: 15vh;
+    width: 15vw;
+    padding: 7%;
     margin-left: -40%;
-    margin-top: -5%;
+    margin-top: -23%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #kevin_goudes{
-    margin-left: 35%;
+    margin-left: 30%;
+    margin-top: -10%;
 }
 
 #kevin_texte_goudes{
     clip-path: polygon(100% 35.7%, 100% 100%, 0% 100%, 0% 35.7%, 24.9% 35.1%, 24.6% 0%, 42.5% 35.7%);
     background-color: black;
     color: white;
-    height: 28vh;
-    width: 18vw;
-    padding: 10%;
+    height: 15vh;
+    width: 10vw;
+    padding: 5%;
     padding-left: 2%;
     padding-right:1% ;
     margin-left: 15%;
     margin-top: -3%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #description_goudes{
@@ -182,6 +222,14 @@ h1{
 }
 
 #description_goudes h2{
+    color: black;
+    margin-top: 2%;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#description_goudes p{
     color: black;
     margin-top: 2%;
     font-size: 1em;
@@ -220,6 +268,7 @@ h1{
     margin-left: -30%;
     margin-top: -55%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #ginette_puget{
@@ -237,6 +286,7 @@ h1{
     margin-left: -15%;
     margin-top: -5%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #kevin_puget{
@@ -256,6 +306,7 @@ h1{
     margin-left: -25%;
     margin-top: -45%;
     text-align: center;
+    font-size: 0.7em ;
 }
 
 #description_puget{
@@ -264,6 +315,14 @@ h1{
 }
 
 #description_puget h2{
+    color: black;
+    margin-top: 2%;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#description_puget p{
     color: black;
     margin-top: 2%;
     font-size: 1em;
@@ -300,6 +359,7 @@ h1{
     margin-left: 10%;
     margin-top: -3%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #ginette_calanques{
@@ -317,6 +377,7 @@ h1{
     margin-left: -65%;
     margin-top: -65%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #kevin_calanques{
@@ -334,7 +395,7 @@ h1{
     margin-left: 15%;
     margin-top: -1%;
     text-align: center;
-
+    font-size: 0.7em;
 }
 
 #description_calanques{
@@ -343,6 +404,14 @@ h1{
 }
 
 #description_calanques h2{
+    color: black;
+    margin-top: 2%;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#description_calanques p{
     color: black;
     margin-top: 2%;
     font-size: 1em;
@@ -379,6 +448,7 @@ h1{
     margin-left: -40%;
     margin-top: -75%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #ginette_pagnol{
@@ -396,6 +466,7 @@ h1{
     margin-left: 20%;
     margin-top: -25%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #kevin_pagnol{
@@ -413,6 +484,7 @@ h1{
     margin-left: -25%;
     margin-top: -10%;
     text-align: center;
+    font-size: 0.7em;
 }
 
 #description_pagnol{
@@ -421,6 +493,14 @@ h1{
 }
 
 #description_pagnol h2{
+    color: black;
+    margin-top: 2%;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#description_pagnol p{
     color: black;
     margin-top: 2%;
     font-size: 1em;
