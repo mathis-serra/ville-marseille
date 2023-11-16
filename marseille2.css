@@ -44,7 +44,7 @@ h2{
 #photo_paleolithique img{
     margin-left: 1%;
     border-radius: 10px;
-    box-shadow: 10px 10px 15px rgba(255, 244, 41, 0.816); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816); 
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -125,7 +125,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -150,7 +150,7 @@ h2{
 
 .timeline-item-details1:hover .timeline-item-details-marker1{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description1::before{
@@ -173,7 +173,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details1:hover .timeline-item-details-description1{
@@ -208,7 +208,7 @@ h2{
     margin-left: 55%;
     margin-top: -60%;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816); 
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -274,7 +274,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -299,7 +299,7 @@ h2{
 
 .timeline-item-details2:hover .timeline-item-details-marker2{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description2::before{
@@ -322,7 +322,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details2:hover .timeline-item-details-description2{
@@ -358,7 +358,7 @@ h2{
     margin-left: 1%;
     border-radius: 10px;
     margin-top: -60%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -435,7 +435,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -460,7 +460,7 @@ h2{
 
 .timeline-item-details3:hover .timeline-item-details-marker3{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description3::before{
@@ -483,7 +483,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details3:hover .timeline-item-details-description3{
@@ -517,7 +517,7 @@ h2{
     margin-left: 55%;
     margin-top: -60%;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -593,7 +593,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -618,7 +618,7 @@ h2{
 
 .timeline-item-details4:hover .timeline-item-details-marker4{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description4::before{
@@ -641,7 +641,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details4:hover .timeline-item-details-description4{
@@ -677,7 +677,7 @@ h2{
     margin-left: 1%;
     border-radius: 10px;
     margin-top: -60%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -743,7 +743,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -768,7 +768,7 @@ h2{
 
 .timeline-item-details5:hover .timeline-item-details-marker5{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description5::before{
@@ -791,7 +791,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details5:hover .timeline-item-details-description5{
@@ -824,7 +824,7 @@ h2{
     margin-left: 55%;
     margin-top: -60%;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -890,7 +890,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -915,7 +915,7 @@ h2{
 
 .timeline-item-details6:hover .timeline-item-details-marker6{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description6::before{
@@ -938,7 +938,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details6:hover .timeline-item-details-description6{
@@ -971,7 +971,7 @@ h2{
     margin-left: 1%;
     border-radius: 10px;
     margin-top: -60%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -1037,7 +1037,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -1062,7 +1062,7 @@ h2{
 
 .timeline-item-details7:hover .timeline-item-details-marker7{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description7::before{
@@ -1085,7 +1085,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details7:hover .timeline-item-details-description7{
@@ -1120,7 +1120,7 @@ h2{
     margin-left: 55%;
     margin-top: -60%;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -1197,7 +1197,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -1222,7 +1222,7 @@ h2{
 
 .timeline-item-details8:hover .timeline-item-details-marker8{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description8::before{
@@ -1245,7 +1245,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details8:hover .timeline-item-details-description8{
@@ -1279,7 +1279,7 @@ h2{
     margin-left: 1%;
     border-radius: 10px;
     margin-top: -60%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816); 
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -1345,7 +1345,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -1370,7 +1370,7 @@ h2{
 
 .timeline-item-details9:hover .timeline-item-details-marker9{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description9::before{
@@ -1393,7 +1393,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details9:hover .timeline-item-details-description9{
@@ -1427,7 +1427,7 @@ h2{
     margin-left: 55%;
     margin-top: -60%;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816); 
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -1505,7 +1505,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -1530,7 +1530,7 @@ h2{
 
 .timeline-item-details10:hover .timeline-item-details-marker10{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description10::before{
@@ -1553,7 +1553,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 .timeline-item-details10:hover .timeline-item-details-description10{
@@ -1588,7 +1588,7 @@ h2{
     margin-left: 1%;
     border-radius: 10px;
     margin-top: -60%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
@@ -1666,7 +1666,7 @@ h2{
     position: relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(137, 224, 255);
+    background-color: rgb(255, 244, 41);
     width: 32px;
     height: 32px;
     border: 3px solid black;
@@ -1691,7 +1691,7 @@ h2{
 
 .timeline-item-details11:hover .timeline-item-details-marker11{
     transform: scale(1.4);
-    background-color: seashell;
+    background-color: rgb(137, 224, 255);
 }
 
 .timeline-item-details-description11::before{
@@ -1714,7 +1714,7 @@ h2{
     word-wrap: break-word;
     opacity: 0.9;
     transition: opacity 0.3s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
 }
 
 
@@ -1969,7 +1969,7 @@ h2{
         word-wrap: break-word;
         opacity: 0.9;
         transition: opacity 0.3s;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+        box-shadow: 15px 10px 20px rgba(255, 244, 41, 0.816);
     }
 }
 /*######################*/
