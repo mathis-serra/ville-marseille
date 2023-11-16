@@ -159,6 +159,7 @@ body{
     cursor: pointer;
     font-size:1.5rem;
     display: none;
+    z-index: 101;
 }
 
 .open-menu{
