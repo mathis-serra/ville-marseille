@@ -16,567 +16,190 @@ h1{
     margin-top: -22%;
 }
 
+@media screen and (max-width: 1100px) {
+    h1{
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 60px;
+    }
+    
+}
+
 #texte p{
     color: black;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.5em;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 15%;
-    margin-left: 22%;
+    margin-left: 22.7%;
     margin-bottom:15%;
+    padding: 1%;
     width: 55%;
-}
-
-
-
-/*######################*/
-/*st-michel*/
-/*######################*/
-/*######################*/
-/*Mathis*/
-/*######################*/
-#mathis_présentation{
-    margin-top: 10%;
-    margin-left: 25%;
-    display: fixed ;
-}
-
-#hello{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 29.4% 75.3%, 9.6% 100%, 9.6% 75.3%, 0% 75.3%);
-    margin-top: -35%;
-    margin-left: 15%;
-    margin-bottom: 5%;
-    height: 20vh;
-    width: 15vw;
-    font-size: 0.7em;
-    color: white;
-    background-color: black;
-    border-bottom: black solid 3px;
-    text-align: center;
-    padding: 1.5%;
-}
-/*######################*/
-/*fin Mathis*/
-/*######################*/
-
-#fond1{
-   border: black solid 3px;
-   border-radius: 10px;
-   height:65vh;
-   width: 65%;
-   margin-left: 18%;
-   background-image: url(img/randonnées/rando1.png);
-   margin-top: -15%;
-   background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-/*######################*/
-/*kevin*/
-/*######################*/
-#kevin_présentation{
-    margin-left: 65%;
-    margin-top: -15%;
-}
-
-#hello2{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 84.9% 75.3%, 86.7% 93.5%, 70.5% 76.6%, 0% 75.3%);
-    margin-top: -60%;
-    margin-left: -30%;
-    margin-bottom: 5%;
-    height: 15vh;
-    width: 15vw;
-    font-size: 0.7em;
-    color: white;
-    background-color: black;
-    border-bottom: black solid 3px;
-    text-align: center;
-    padding: 3%;
-}
-/*######################*/
-/*fin kevin*/
-/*######################*/
-
-
-
-/*######################*/
-/*belvedere*/
-/*######################*/
-#description_belvedere{
-    text-align: center;
-    margin-top: 15%;
-}
-#description_belvedere h2{
-    color: black;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-#description_belvedere img{
+    border: black solid 4px;
     border-radius: 10px;
-    margin-top: 10%;
+    border-style: dashed double dashed;
+    background-color: #89e0ff;
+    box-shadow: 15px 10px 20px rgb(255, 242, 0);
 }
-
-#description_belvedere p{
-    color: black;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    text-align: block;
-    line-height: 2em;
-}
-/*######################*/
-/*fin belvedere*/
-/*######################*/
-/*######################*/
-/*fin st-michel*/
-/*######################*/
-
-
-
-
-
 
 
 /*######################*/
-/*goudes*/  
+/*main*/
 /*######################*/
-#mathis_goudes{
-    margin-top: -40%;
-    margin-left: 15%;
-}
-
-#mathis_texte_goudes{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 29.4% 75.3%, 9.6% 100%, 9.6% 75.3%, 0% 75.3%);
-    background-color: black;
-    width: 10vw;
-    height: 15vh;
-    color: white;
-    padding: 1.5%;
-    margin-left: 15%;
-    margin-top: -20%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#fond2{
-    border: black solid 3px;
-    border-radius: 10px;
-    height:90vh;
-    width: 75%;
-    margin-left: 12%;
-    background-image: url(img/randonnées/rando2.jpg);
-    margin-top: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
-#ginette_goudes{
-    margin-left: 65%;
-    margin-top: -4%;
-}
-
-#ginette_texte_goudes{
-    clip-path: polygon(84.5% 0%, 85.8% 25%, 100% 26.1%, 100% 100%, 0% 100%, 0% 25.5%, 74.7% 25%);
-    background-color: black;
-    color: white;
-    height: 15vh;
-    width: 15vw;
-    padding: 7%;
-    margin-left: -40%;
-    margin-top: -23%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#kevin_goudes{
-    margin-left: 37%;
-    margin-top: -1%;
-}
-
-#kevin_texte_goudes{
-    clip-path: polygon(100% 35.7%, 100% 100%, 0% 100%, 0% 35.7%, 24.9% 35.1%, 24.6% 0%, 42.5% 35.7%);
-    background-color: black;
-    color: white;
-    height: 17vh;
-    width: 10vw;
-    padding: 5.5%;
-    padding-left: 1%;
-    padding-right:1% ;
-    margin-left: 18%;
-    margin-top: -9%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#description_goudes{
-    text-align: center;
-    margin-top: 15%;
-}
-
-#description_goudes h2{
-    color: black;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-#description_goudes p{
-    color: black;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    text-align: block;
-    line-height: 2em;
-}
-
-#description_goudes img{
-    border-radius: 10px;
-}
 /*######################*/
-/*fin goudes*/
+/*bd*/
+/*######################*/
+
+#fond1 img,
+#fond2 img,
+#fond3 img,
+#fond4 img,
+#fond5 img{
+   background-color: #89e0ff;
+   box-shadow: 15px 10px 20px rgb(255, 242, 0);
+   align-items: center;
+   margin-bottom: 2%;
+}
+
+
+@media screen and (max-width: 800px) {
+    #fond1 img,
+    #fond2 img,
+    #fond3 img,
+    #fond4 img,
+    #fond5 img{
+        width: 90%;
+        height: 90%;
+        box-shadow: 5px 5px 5px rgb(255, 242, 0);
+        border-style: dashed;
+    }
+    
+}
+
+/*######################*/
+/*description*/
 /*######################*/
 
 
-
-
-
-
-
-/*######################*/
-/*puget*/
-/*######################*/
-#mathis_puget{
-    margin-left: 70%;
-    margin-top: -30%;
-}
-
-#mathis_texte_puget{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86.9% 74.8%, 86.9% 100%, 77.7% 75.5%, 0% 75%);
-    background-color: black;
-    width: 15vw;
-    height: 15vh;
-    color: white;
-    padding: 5%;
-    margin-left: -30%;
-    margin-top: -70%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-
-#fond3{
-    border: black solid 3px;
-    border-radius: 10px;
-    height:90vh;
-    width: 75%;
-    margin-left: 12%;
-    background-image: url(img/randonnées/rando3.jpg);
-    margin-top: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
-#ginette_puget{
-    margin-left: 20%;
-    margin-top: -9%;
-}
-
-#ginette_texte_puget{
-    clip-path: polygon(84.5% 0%, 85.8% 25%, 100% 26.1%, 100% 100%, 0% 100%, 0% 25.5%, 74.7% 25%);
-    background-color: black;
-    color: white;
-    height: 15vh;
-    width: 10vw;
-    padding: 3.5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: -5%;
-    margin-top: -10%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#kevin_puget{
-    margin-left: 50%;
-    margin-top: -5%;
-}
-
-#kevin_texte_puget{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86.9% 74.8%, 86.9% 100%, 77.7% 75.5%, 0% 75%);
-    background-color: black;
-    color: white;
-    height: 15vh;
-    width: 15vw;
-    padding: 3%;
-    margin-left: -25%;
-    margin-top: -30%;
-    text-align: center;
-    font-size: 0.7em ;
-}
-
-#description_puget{
-    text-align: center;
-    margin-top: 20%;
-}
-
-#description_puget h2{
-    color: black;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-#description_puget p{
-    color: black;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    text-align: block;
-    line-height: 2em;
-}
-
-#description_puget img{
-    border-radius: 10px;
-    margin-top: 5%;
-}
-/*######################*/
-/*fin puget*/
-/*######################*/
-
-
-
-
-
-/*######################*/
-/*calanques*/
-/*######################*/
-#mathis_calanques{
-    margin-left: 12%;
-    margin-top: -37%;
-}
-
-#mathis_texte_calanques{
-    clip-path: polygon(100% 35.7%, 100% 100%, 0% 100%, 0% 35.7%, 24.9% 35.1%, 24.6% 0%, 42.5% 35.7%);
-    background-color: black;
-    width: 13vw;
-    height: 10vh;
-    color: white;
-    padding: 5%;
-    padding-top: 7%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 13%;
-    margin-top: -15%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#fond4{
-    border: black solid 3px;
-    border-radius: 10px;
-    height:90vh;
-    width: 75%;
-    margin-left: 12%;
-    background-image: url(img/randonnées/rando4.png);
-    margin-top: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
-#ginette_calanques{
-    margin-left: 70%;
-    margin-top: -20%;
-}
-
-#ginette_texte_calanques{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86.9% 74.8%, 86.9% 100%, 77.7% 75.5%, 0% 75%);
-    background-color: black;
-    color: white;
-    height: 15vh;
-    width: 12vw;
-    padding: 3%;
-    margin-left: -50%;
-    margin-top: -55%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#kevin_calanques{
-    margin-left: 45%;
-    margin-top: 6%;
-}
-
-#kevin_texte_calanques{
-    clip-path: polygon(100% 35.7%, 100% 100%, 0% 100%, 0% 35.7%, 24.9% 35.1%, 24.6% 0%, 42.5% 35.7%);
-    background-color: black;
-    color: white;
-    height: 10vh;
-    width: 15vw;
-    padding: 8%;
-    margin-left: 20%;
-    margin-top: -10%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#description_calanques{
-    text-align: center;
-    margin-top: 10%;
-}
-
-#description_calanques h2{
-    color: black;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-#description_calanques p{
-    color: black;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    text-align: block;
-    line-height: 2em;
-}
-
-#description_calanques img{
-    border-radius: 10px;
-    margin-top: 10%;
-}
-/*######################*/
-/*fin calanques*/
-/*######################*/
-
-
-
-
-
-/*######################*/
-/*pagnol*/
-/*######################*/
-#mathis_pagnol{
-    margin-left: 50%;
-    margin-top: -41%;
-}
-
-#mathis_texte_pagnol{
-    clip-path: polygon(100% 35.7%, 100% 100%, 0% 100%, 0% 35.7%, 24.9% 35.1%, 24.6% 0%, 42.5% 35.7%);
-    background-color: black;
-    width: 15vw;
-    height: 18vh;
-    color: white;
-    padding: 7.5%;
-    margin-left: 25%;
-    margin-top: -15%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#fond5{
-    border: black solid 3px;
-    border-radius: 10px;
-    height:90vh;
-    width: 75%;
-    margin-left: 12%;
-    background-image: url(img/randonnées/rando5.png);
-    margin-top: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
-#ginette_pagnol{
-    margin-left: 25%;
-    margin-top: -15%;
-}
-
-#ginette_texte_pagnol{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86.9% 74.8%, 86.9% 100%, 77.7% 75.5%, 0% 75%);
-    background-color: black;
-    color: white;
-    height: 15vh;
-    width: 15vw;
-    padding: 2%;
-    margin-left: -10%;
-    margin-top: -25%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
-#kevin_pagnol{
-    margin-left: 42%;
-    margin-top: 8.5%;
-}
-
-#kevin_texte_pagnol{
-    clip-path: polygon(84.5% 0%, 85.8% 25%, 100% 26.1%, 100% 100%, 0% 100%, 0% 25.5%, 74.7% 25%);
-    background-color: black;
-    color: white;
-    height: 15vh;
-    width: 15vw;
-    padding: 5%;
-    margin-left: -22%;
-    margin-top: -10%;
-    text-align: center;
-    font-size: 0.7em;
-}
-
+#description_belvedere,
+#description_goudes,
+#description_puget,
+#description_calanques,
 #description_pagnol{
     text-align: center;
-    margin-top: 15%;
 }
 
+
+#description_belvedere img,
+#description_goudes img,
+#description_puget img,
+#description_calanques img,
+#description_pagnol img{
+    border-radius: 10px;
+    box-shadow: 15px 10px 20px rgb(255, 242, 0);
+
+    border: black solid 4px;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #description_belvedere img,
+    #description_goudes img,
+    #description_puget img,
+    #description_calanques img,
+    #description_pagnol img{
+        width: 90%;
+        height: 90%;
+        box-shadow: 5px 5px 5px rgb(255, 242, 0);
+    }
+    
+}
+
+.explication{
+    border: black solid 4px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    padding: 1%;
+    background-color: #89e0ff;
+    opacity: 0.8;
+    box-shadow: 15px 10px 20px rgb(255, 242, 0);
+    border-style: dashed;
+}
+
+@media screen and (max-width: 1000px){
+    .explication{
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 5px 5px 5px rgb(255, 242, 0);
+    }
+}
+
+.explication2{
+    border: black solid 3px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: #89e0ff;
+    opacity: 0.8;
+    box-shadow: 15px 10px 20px rgb(255, 242, 0);
+}
+
+@media screen and (max-width: 1000px){
+    .explication2{
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 5px 5px 5px rgb(255, 242, 0);
+    }
+}
+
+#description_belvedere h2,
+#description_goudes h2,
+#description_puget h2,
+#description_calanques h2,
 #description_pagnol h2{
     color: black;
     margin-top: 2%;
+    margin-bottom:2% ;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     width: 50%;
     margin-left: 25%;
     font-weight: bolder;
     text-decoration: underline;
 }
 
+
+#description_belvedere p,
+#description_goudes p,
+#description_puget p,
+#description_calanques p,
 #description_pagnol p{
     color: black;
     margin-top: 2%;
+    font-size: 1.2em;
+    width: 100%;
     text-align: center;
-    font-size: 1em;
-    width: 50%;
-    margin-left: 25%;
-    text-align: block;
     line-height: 2em;
 }
+/*######################*/
+/*fin description*/
+/*######################*/
+/*######################*/
+/*fin main*/
+/*######################*/
 
-#description_pagnol img{
-    border-radius: 10px;
+main{
+    background-color: #89e0ff43;
 }

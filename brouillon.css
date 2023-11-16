@@ -1,0 +1,272 @@
+#photo_background{
+    background-image: url(img/randonnées/rando_back.png);
+    padding:25%;
+    margin-top: -18%;
+    margin-left: -13%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 180px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -22%;
+}
+
+#texte p{
+    color: black;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 22.7%;
+    margin-bottom:15%;
+    width: 55%;
+}
+
+
+
+/*######################*/
+/*st-michel*/
+/*######################*/
+
+#fond1 img{
+   border: black solid 4px;
+   border-radius: 10px;
+   align-items: center;
+    margin-left: 24%;
+}
+
+/*######################*/
+/*belvedere*/
+/*######################*/
+#description_belvedere{
+    text-align: center;
+}
+#description_belvedere h2{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#description_belvedere img{
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+#description_belvedere p{
+    color: black;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: block;
+    line-height: 2em;
+}
+/*######################*/
+/*fin belvedere*/
+/*######################*/
+/*######################*/
+/*fin st-michel*/
+/*######################*/
+
+
+
+
+
+
+
+/*######################*/
+/*goudes*/  
+/*######################*/
+#fond2 img{
+    border: black solid 4px;
+    border-radius: 10px;
+    margin-left: 24%;
+ }
+
+#description_goudes{
+    text-align: center;
+    margin-top: 15%;
+}
+
+#description_goudes h2{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#description_goudes p{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: block;
+    line-height: 2em;
+}
+
+#description_goudes img{
+    border-radius: 10px;
+}
+/*######################*/
+/*fin goudes*/
+/*######################*/
+
+
+
+
+
+
+
+/*######################*/
+/*puget*/
+/*######################*/
+#fond3 img{
+    border: black solid 4px;
+    border-radius: 10px;
+    margin-left: 25%;
+ }
+
+#description_puget{
+    text-align: center;
+    margin-top: 20%;
+}
+
+#description_puget h2{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#description_puget p{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: block;
+    line-height: 2em;
+}
+
+#description_puget img{
+    border-radius: 10px;
+    margin-top: 5%;
+}
+/*######################*/
+/*fin puget*/
+/*######################*/
+
+
+
+
+
+/*######################*/
+/*calanques*/
+/*######################*/
+#fond4 img{
+    border: black solid 4px;
+    border-radius: 10px;
+    margin-left: 25%;
+ }
+
+#description_calanques{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#description_calanques h2{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#description_calanques p{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: block;
+    line-height: 2em;
+}
+
+#description_calanques img{
+    border-radius: 10px;
+    margin-top: 10%;
+}
+/*######################*/
+/*fin calanques*/
+/*######################*/
+
+
+
+
+
+/*######################*/
+/*pagnol*/
+/*######################*/
+#fond5 img{
+    border: black solid 4px;
+    border-radius: 10px;
+    margin-left: 25%;
+ }
+
+#description_pagnol{
+    text-align: center;
+    margin-top: 15%;
+}
+
+#description_pagnol h2{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#description_pagnol p{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: block;
+    line-height: 2em;
+}
+
+#description_pagnol img{
+    border-radius: 10px;
+}
