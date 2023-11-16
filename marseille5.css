@@ -165,7 +165,7 @@ a:visited{
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
     .info-block, .info-text {
         width: 100%; 
     }
@@ -186,5 +186,43 @@ a:visited{
 
     .info-text p {
         font-size: 30px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .info-block, .info-text {
+        width: 100%; 
+    }
+
+    .info-block img {
+        width: 100%; 
+    }
+
+    .info-text p{
+        font-size: 16px;
+        margin-top: 1%;
+    } 
+
+    .info-text h2{
+        font-size: 20px;
+        margin-top: 5%;
+    }    
+}
+
+@media (min-width: 2000px) and (max-width: 2559px) {
+    .info-block img{
+        width: 100%; 
+    }
+
+    .info-text p {
+        font-size: 31px;
+    }
+
+}
+
+
+@media (min-width: 1500px) and (max-width: 1999px) {
+    .info-text p {
+        font-size: 22px;
     }
 }
