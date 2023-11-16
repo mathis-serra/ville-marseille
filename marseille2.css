@@ -44,7 +44,7 @@ h2{
 #photo_paleolithique img{
     margin-left: 1%;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 10px 10px 15px rgba(255, 244, 41, 0.816); 
 }
 
 @media screen and (min-width:1000px) and (max-width: 1300px) {
