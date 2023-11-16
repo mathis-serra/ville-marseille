@@ -1,0 +1,102 @@
+#main4{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4%;
+}
+
+
+
+
+#title2{
+    color: #0047a3;
+    font-size: 2.1875rem;
+    padding-bottom: 2.8125rem;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#plage-catalans{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+#plage-catalans img{
+    width: 60%;
+    border:#000 1px solid;
+    max-height: 419.62px;
+}
+
+
+
+#plage-catalans h3{
+    color: #000;
+    padding: 10px;
+    font-size: 50px;
+}
+
+
+
+#plage-catalans article{
+    color: #0047a3;
+    text-align: center;
+    width: 60%;
+}
+
+
+
+#plage-escale{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+#plage-escale img{
+    width: 60%;
+    border:#000 1px solid;
+    max-height: 419.62px;
+}
+
+
+
+#plage-escale h3{
+    color: #000;
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+
+
+#plage-escale article{
+    color: #0047a3;
+    text-align: center;
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+
+@media screen and (max-device-width: 700px) {
+
+    #plage-escale{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        padding-top: 100px;
+    }
+
+    #plage-escale h3{
+        text-align:end;
+    }
+    
+}
