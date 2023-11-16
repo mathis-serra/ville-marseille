@@ -58,20 +58,31 @@ a:visited{
 }
 
 
-.park-info:nth-child(1):hover .info-block {
-    background-color: #FEDB00;
+.park-info:nth-child(1):hover .info-block,
+.park-info:nth-child(2):hover .info-block,
+.park-info:nth-child(3):hover .info-block,
+.park-info:nth-child(4):hover .info-block
+ {
+    background-color: white;
+}
+
+
+.park-info:nth-child(1) .info-text h2,
+.park-info:nth-child(2) .info-text h2,
+.park-info:nth-child(3) .info-text h2,
+.park-info:nth-child(4) .info-text h2 {
+    color: white;
+}
+
+.park-info:nth-child(1) .info-text p,
+.park-info:nth-child(2) .info-text p,
+.park-info:nth-child(3) .info-text p,
+.park-info:nth-child(4) .info-text p {
+    color: white;
 }
 
 .park-info:nth-child(1):hover .info-text h2 {
     color: #286140;
-}
-
-.park-info:nth-child(1) .info-text h2 {
-    color: #FEDB00;
-}
-
-.park-info:nth-child(1) .info-text p {
-    color: #FEDB00;
 }
 
 .park-info:nth-child(1) .info-block {
@@ -82,76 +93,45 @@ a:visited{
     color: #286140;
 }
 
-.park-info:nth-child(2):hover .info-block {
-    background-color: #feffff;
-}
 
 .park-info:nth-child(2):hover .info-text h2 {
-    color: #87CEEB;
+    color: rgb(252, 113, 113);
 }
 
-.park-info:nth-child(2) .info-text h2 {
-    color: white;
-}
 
-.park-info:nth-child(2) .info-text p {
-    color: white;
-}
 
 .park-info:nth-child(2) .info-block {
-    background-color: #87CEEB;
+    background-color: rgb(252, 113, 113);
 }
 
 .park-info:nth-child(2):hover .info-text p {
-    color: #87CEEB;
-}
-
-.park-info:nth-child(3) .info-text h2 {
-    color: #653024;
-}
-
-.park-info:nth-child(3) .info-text p {
-    color: #653024;
+    color: rgb(252, 113, 113);
 }
 
 .park-info:nth-child(3) .info-block {
-    background-color: #FFB500;
-}
-
-.park-info:nth-child(3):hover .info-block {
-    background-color: #653024;
+    background-color: rgb(143, 143, 143);
 }
 
 .park-info:nth-child(3):hover .info-text h2 {
-    color: #FFB500;
+    color: rgb(143, 143, 143);
 }
 
 .park-info:nth-child(3):hover .info-text p {
-    color: #FFB500;
+    color: rgb(143, 143, 143);
 }
 
-.park-info:nth-child(4):hover .info-block {
-    background-color: #435c1e;
-}
 
 .park-info:nth-child(4):hover .info-text h2 {
-    color: rgb(178, 177, 177);
+    color: rgb(27, 27, 59);
 }
 
-.park-info:nth-child(4) .info-text h2 {
-    color: #435c1e;
-}
-
-.park-info:nth-child(4) .info-text p {
-    color: #435c1e;
-}
 
 .park-info:nth-child(4) .info-block {
-    background-color: rgb(178, 177, 177);
+    background-color: rgb(27, 27, 59);
 }
 
 .park-info:nth-child(4):hover .info-text p {
-    color: rgb(178, 177, 177);
+    color: rgb(27, 27, 59);
 }
 
 
