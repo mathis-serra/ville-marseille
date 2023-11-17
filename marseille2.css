@@ -29,7 +29,7 @@ h2{
     
     h2{
         color: #000000;
-        font-size: px;
+        font-size: 20px;
         font-weight: bold;
         text-align: center;
         margin-top: 2%;
@@ -80,7 +80,6 @@ h2{
     height: 1000%;
     left: 47.5%;
     top: 75%;
-    border-style: dashed dashed dashed dashed;
 }
 .timeline-item1{
     margin: 20%;
@@ -245,7 +244,6 @@ h2{
     height: 1000%;
     left: 47.5%;
     top: 75%;
-    border-style: dashed dashed dashed dashed;
 }
 .timeline-item2{
     margin: 20%;
@@ -407,7 +405,6 @@ h2{
     height: 1000%;
     left: 47.5%;
     top: 75%;
-    border-style: dashed dashed dashed dashed;
 }
 .timeline-item3{
     margin: 20%;
@@ -566,7 +563,6 @@ h2{
     height: 1000%;
     left: 47.5%;
     top: 75%;
-    border-style: dashed dashed dashed dashed;
 }
 .timeline-item4{
     margin: 20%;
@@ -717,7 +713,6 @@ h2{
     height: 1000%;
     left: 47.5%;
     top: 75%;
-    border-style: dashed dashed dashed dashed;
 }
 .timeline-item5{
     margin: 20%;
@@ -2002,7 +1997,7 @@ h2{
         position: absolute;
         background-color: black;
         width: 1%;
-        height: 2700%;
+        height: 1400%;
         left: 47.5%;
         top: 65%;
     }  
