@@ -1,0 +1,133 @@
+@media screen and (max-width:1000px) {
+    .timeline-item1:before{
+        content:"";
+        position: absolute;
+        background-color: black;
+        width: 1%;
+        height: 1000%;
+        left: 47.5%;
+        top: 75%;
+        display: none;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    .timeline-item10:before{
+        content:"";
+        position: absolute;
+        background-color: black;
+        width: 1%;
+        height: 500%;
+        left: 47.5%;
+        top: 75%;
+    }
+}
+
+
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    .timeline-item11:before{
+        content:"";
+        position: absolute;
+        background-color: black;
+        width: 1%;
+        left: 47.5%;
+        top: 50%;
+    }
+}
+
+
+
+
+
+.timeline-item11:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 50%;
+}
+
+
+.timeline-item2:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 75%;
+}
+
+
+.timeline-item3:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 75%;
+}
+
+.timeline-item4:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 75%;
+}
+
+.timeline-item5:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 75%;
+}
+
+.timeline-item6:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 75%;
+}
+
+.timeline-item7:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 75%;
+}
+
+.timeline-item8:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 75%;
+}
+
+.timeline-item9:before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 100%;
+    left: 47.5%;
+    top: 75%;
+}
