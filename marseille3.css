@@ -64,6 +64,8 @@ h1{
    box-shadow: 15px 10px 20px rgb(255, 242, 0);
    align-items: center;
    margin-bottom: 2%;
+    border: black solid 4px;
+    border-radius: 10px;
 }
 
 
@@ -95,11 +97,11 @@ h1{
 }
 
 
-#description_belvedere img,
-#description_goudes img,
-#description_puget img,
-#description_calanques img,
-#description_pagnol img{
+#description_belvedere #photo,
+#description_goudes #photo,
+#description_puget #photo,
+#description_calanques #photo,
+#description_pagnol #photo{
     border-radius: 10px;
     box-shadow: 15px 10px 20px rgb(255, 242, 0);
 
@@ -110,11 +112,11 @@ h1{
 
 
 @media screen and (max-width: 800px) {
-    #description_belvedere img,
-    #description_goudes img,
-    #description_puget img,
-    #description_calanques img,
-    #description_pagnol img{
+    #description_belvedere #photo,
+    #description_goudes #photo,
+    #description_puget #photo,
+    #description_calanques #photo,
+    #description_pagnol #photo{
         width: 90%;
         height: 90%;
         box-shadow: 5px 5px 5px rgb(255, 242, 0);
@@ -128,7 +130,7 @@ h1{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
     padding: 1%;
     background-color: #89e0ff;
     opacity: 0.8;
@@ -145,15 +147,17 @@ h1{
 }
 
 .explication2{
-    border: black solid 3px;
+    border: black solid 4px;
     border-radius: 10px;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 2%;
+    margin-bottom:5%;
     padding: 1%;
     background-color: #89e0ff;
     opacity: 0.8;
     box-shadow: 15px 10px 20px rgb(255, 242, 0);
+    border-style: dashed;
 }
 
 @media screen and (max-width: 1000px){
@@ -171,15 +175,41 @@ h1{
 #description_pagnol h2{
     color: black;
     margin-top: 2%;
-    margin-bottom:2% ;
-    text-align: center;
-    font-size: 1.5em;
+    margin-bottom:-4%;
+    text-align:left;
+    font-size: 5em;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 17%;
     font-weight: bolder;
     text-decoration: underline;
 }
 
+@media screen and (max-width: 800px){
+    #description_belvedere h2,
+    #description_goudes h2,
+    #description_puget h2,
+    #description_calanques h2,
+    #description_pagnol h2{
+        font-size: 2.5em;
+        width: 100%;
+        margin-left: 17%;
+        text-align: left;
+    }
+}
+
+hr{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 15%;
+    border: black solid 4px;
+    border-style: inset;
+}
+
+#svg{
+margin-left: 50%;
+}
 
 #description_belvedere p,
 #description_goudes p,
@@ -200,6 +230,6 @@ h1{
 /*fin main*/
 /*######################*/
 
-main{
+body{
     background-color: #89e0ff43;
 }
