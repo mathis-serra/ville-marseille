@@ -1,3 +1,7 @@
+body{
+    background-color: #89e0ff43;
+}
+
 #photo_background{
     background-image: url(img/randonnées/rando_back.png);
     padding:25%;
@@ -191,8 +195,22 @@ h1{
     #description_calanques h2,
     #description_pagnol h2{
         font-size: 2.5em;
-        width: 100%;
+        width: 50%;
         margin-left: 17%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #description_belvedere h2,
+    #description_goudes h2,
+    #description_puget h2,
+    #description_calanques h2,
+    #description_pagnol h2{
+        font-size: 2.5em;
+        width: 50%;
+        margin-left: 17%;
+        margin-bottom: 2%;
         text-align: left;
     }
 }
@@ -211,6 +229,13 @@ hr{
 margin-left: 50%;
 }
 
+@media screen and (max-width: 450px){
+    #svg{
+        display: none;
+        }
+    
+}
+
 #description_belvedere p,
 #description_goudes p,
 #description_puget p,
@@ -223,6 +248,8 @@ margin-left: 50%;
     text-align: center;
     line-height: 2em;
 }
+
+
 /*######################*/
 /*fin description*/
 /*######################*/
@@ -230,6 +257,3 @@ margin-left: 50%;
 /*fin main*/
 /*######################*/
 
-body{
-    background-color: #89e0ff43;
-}
