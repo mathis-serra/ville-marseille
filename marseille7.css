@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body {
     height: 100%;
     display: grid;
     align-items: center;
-    background-image: url(images/marseille.jpg);
+    background-image: url(img/marseille.jpg);
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,3 +101,19 @@ body {
     font-size: 18px;
 }
 
+hr {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+#last {
+    visibility: hidden;
+    clear: both;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}

@@ -1,0 +1,258 @@
+#body3{
+    background-color: #89e0ff43;
+}
+
+#photo_background{
+    background-image: url(img/randonnées/rando_back.png);
+    padding:25%;
+    margin-top: -18%;
+    margin-left: -13%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 180px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -22%;
+}
+
+@media screen and (max-width: 1100px) {
+    h1{
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 60px;
+    }
+    
+}
+
+#texte p{
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 22.7%;
+    margin-bottom:15%;
+    padding: 1%;
+    width: 55%;
+    border: black solid 4px;
+    border-radius: 10px;
+    border-style: dashed double dashed;
+    background-color: #89e0ff;
+    box-shadow: 15px 10px 20px rgb(255, 242, 0);
+}
+
+
+/*######################*/
+/*main*/
+/*######################*/
+/*######################*/
+/*bd*/
+/*######################*/
+
+#fond1 img,
+#fond2 img,
+#fond3 img,
+#fond4 img,
+#fond5 img{
+   background-color: #89e0ff;
+   box-shadow: 15px 10px 20px rgb(255, 242, 0);
+   align-items: center;
+   margin-bottom: 2%;
+    border: black solid 4px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    #fond1 img,
+    #fond2 img,
+    #fond3 img,
+    #fond4 img,
+    #fond5 img{
+        width: 90%;
+        height: 90%;
+        box-shadow: 5px 5px 5px rgb(255, 242, 0);
+        border-style: dashed;
+    }
+    
+}
+
+/*######################*/
+/*description*/
+/*######################*/
+
+
+#description_belvedere,
+#description_goudes,
+#description_puget,
+#description_calanques,
+#description_pagnol{
+    text-align: center;
+}
+
+
+#description_belvedere #photo,
+#description_goudes #photo,
+#description_puget #photo,
+#description_calanques #photo,
+#description_pagnol #photo{
+    border-radius: 10px;
+    box-shadow: 15px 10px 20px rgb(255, 242, 0);
+
+    border: black solid 4px;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #description_belvedere #photo,
+    #description_goudes #photo,
+    #description_puget #photo,
+    #description_calanques #photo,
+    #description_pagnol #photo{
+        width: 90%;
+        height: 90%;
+        box-shadow: 5px 5px 5px rgb(255, 242, 0);
+    }
+    
+}
+
+.explication{
+    border: black solid 4px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+    padding: 1%;
+    background-color: #89e0ff;
+    opacity: 0.8;
+    box-shadow: 15px 10px 20px rgb(255, 242, 0);
+    border-style: dashed;
+}
+
+@media screen and (max-width: 1000px){
+    .explication{
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 5px 5px 5px rgb(255, 242, 0);
+    }
+}
+
+.explication2{
+    border: black solid 4px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom:5%;
+    padding: 1%;
+    background-color: #89e0ff;
+    opacity: 0.8;
+    box-shadow: 15px 10px 20px rgb(255, 242, 0);
+    border-style: dashed;
+}
+
+@media screen and (max-width: 1000px){
+    .explication2{
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 5px 5px 5px rgb(255, 242, 0);
+    }
+}
+
+#description_belvedere h2,
+#description_goudes h2,
+#description_puget h2,
+#description_calanques h2,
+#description_pagnol h2{
+    color: black;
+    margin-top: 2%;
+    margin-bottom:-4%;
+    text-align:left;
+    font-size: 5em;
+    width: 50%;
+    margin-left: 17%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px){
+    #description_belvedere h2,
+    #description_goudes h2,
+    #description_puget h2,
+    #description_calanques h2,
+    #description_pagnol h2{
+        font-size: 2.5em;
+        width: 50%;
+        margin-left: 17%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #description_belvedere h2,
+    #description_goudes h2,
+    #description_puget h2,
+    #description_calanques h2,
+    #description_pagnol h2{
+        font-size: 2.5em;
+        width: 50%;
+        margin-left: 17%;
+        margin-bottom: 2%;
+        text-align: left;
+    }
+}
+
+hr{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 15%;
+    border: black solid 4px;
+    border-style: inset;
+}
+
+#svg{
+margin-left: 50%;
+}
+
+@media screen and (max-width: 450px){
+    #svg{
+        display: none;
+        }
+    
+}
+
+#description_belvedere p,
+#description_goudes p,
+#description_puget p,
+#description_calanques p,
+#description_pagnol p{
+    color: black;
+    margin-top: 2%;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+}
+
+
+/*######################*/
+/*fin description*/
+/*######################*/
+/*######################*/
+/*fin main*/
+/*######################*/
