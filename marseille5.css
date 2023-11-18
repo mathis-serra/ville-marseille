@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.park-info {
+    display: flex;
+  
+}
+
+.info-block {
+    flex: 1;
+    transition: background-color 1s ease;
+    width: 50%;
+}
+
+.info-block img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: filter 1s ease;
+    max-width: 100%;
+}
+
+.info-text {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 20px;
+    transition: background-color 1s ease, color 1s ease;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 20;
+    word-wrap: break-word;
+}
+
+.info-text p{
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+
+.park-info:nth-child(1):hover .info-block,
+.park-info:nth-child(2):hover .info-block,
+.park-info:nth-child(3):hover .info-block,
+.park-info:nth-child(4):hover .info-block
+ {
+    background-color: white;
+}
+
+
+.park-info:nth-child(1) .info-text h2,
+.park-info:nth-child(2) .info-text h2,
+.park-info:nth-child(3) .info-text h2,
+.park-info:nth-child(4) .info-text h2 {
+    color: white;
+}
+
+.park-info:nth-child(1) .info-text p,
+.park-info:nth-child(2) .info-text p,
+.park-info:nth-child(3) .info-text p,
+.park-info:nth-child(4) .info-text p {
+    color: white;
+}
+
+.park-info:nth-child(1):hover .info-text h2 {
+    color: #286140;
+}
+
+.park-info:nth-child(1) .info-block {
+    background-color: #286140;
+}
+
+.park-info:nth-child(1):hover .info-text p {
+    color: #286140;
+}
+
+
+.park-info:nth-child(2):hover .info-text h2 {
+    color: rgb(252, 113, 113);
+}
+
+
+
+.park-info:nth-child(2) .info-block {
+    background-color: rgb(252, 113, 113);
+}
+
+.park-info:nth-child(2):hover .info-text p {
+    color: rgb(252, 113, 113);
+}
+
+.park-info:nth-child(3) .info-block {
+    background-color: rgb(143, 143, 143);
+}
+
+.park-info:nth-child(3):hover .info-text h2 {
+    color: rgb(143, 143, 143);
+}
+
+.park-info:nth-child(3):hover .info-text p {
+    color: rgb(143, 143, 143);
+}
+
+
+.park-info:nth-child(4):hover .info-text h2 {
+    color: rgb(27, 27, 59);
+}
+
+
+.park-info:nth-child(4) .info-block {
+    background-color: rgb(27, 27, 59);
+}
+
+.park-info:nth-child(4):hover .info-text p {
+    color: rgb(27, 27, 59);
+}
+
+
+@media (max-width: 768px) {
+    .park-info {
+        flex-direction: column;
+    }
+
+    .info-block, .info-text {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 1080px) {
+    .info-block, .info-text {
+        width: 100%; 
+    }
+
+    .info-block img{
+        width: 100%;
+    }
+
+    .park-info {
+        flex-direction: column; 
+    }
+}
+
+@media (min-width: 2560px) {
+    .info-block img{
+        width: 100%; 
+    }
+
+    .info-text p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .info-block, .info-text {
+        width: 100%; 
+    }
+
+    .info-block img {
+        width: 100%; 
+    }
+
+    .info-text p{
+        font-size: 16px;
+        margin-top: 1%;
+    } 
+
+    .info-text h2{
+        font-size: 20px;
+        margin-top: 5%;
+    }    
+}
+
+@media (min-width: 2000px) and (max-width: 2559px) {
+    .info-block img{
+        width: 100%; 
+    }
+
+    .info-text p {
+        font-size: 31px;
+    }
+
+}
+
+
+@media (min-width: 1500px) and (max-width: 1999px) {
+    .info-text p {
+        font-size: 22px;
+    }
+}
